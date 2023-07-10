@@ -1,4 +1,6 @@
 // #!#![allow(unused)]
+// #![allow(dead_code)]
+
 use std::io; // import the crate library
 
 fn get_string() -> io::Result<String> {
@@ -17,5 +19,6 @@ fn main() -> io::Result<()> {
     println!("{user_input}"); // and here print the input
 
     Ok(())
+
 
 }
